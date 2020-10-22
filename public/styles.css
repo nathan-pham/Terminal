@@ -1,0 +1,24 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #000;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif, Arial;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+#terminal {
+	padding: 0.25rem;	
+	font-size: 1.1rem;
+}
+#terminal .terminal:focus .terminal-cursor {
+	background: #fff;
+}
+/* #terminal .terminal {
+	background: #111;
+	color: #fafafa;
+	padding: 0.25rem;
+} */
